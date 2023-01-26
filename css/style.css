@@ -100,9 +100,21 @@
     width: 800px;
 }
 
+@keyframes ruota {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
+
+.ex-10-icon {
+    animation: ruota 2s linear infinite;
+}
+
+
 .ex-11-icon {
     font-size: 60px;
 }
