@@ -89,6 +89,17 @@
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale() sepia();
+    border-radius: 50%;
+    width: 800px;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
